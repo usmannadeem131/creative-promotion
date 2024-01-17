@@ -1,0 +1,60 @@
+name: creativepromotion
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.5.3
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  #others
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  flutter_svg: ^2.0.7
+  image_picker: ^1.0.2
+  excel: ^2.1.0
+  path_provider: ^2.1.0
+  open_file: ^3.3.2
+  cached_network_image: ^3.2.3
+  signature: ^5.4.0
+  shared_preferences: ^2.2.0
+  google_sign_in: ^6.1.4
+  flutter_facebook_auth: ^6.0.1
+  intl: ^0.18.1
+  flutter_slidable: ^3.0.0
+  blurhash_dart: ^1.2.1
+  url_launcher: ^6.1.12
+  flutter_secure_storage: ^8.0.0
+  # firebase_core: ^2.15.1
+  cloud_firestore: ^4.8.5
+  firebase_auth: ^4.8.0
+  firebase_storage: ^11.2.6
+  firebase_core: ^2.15.1
+  permission_handler: ^10.4.5
+  flutter_image_compress: ^2.0.4
+  http: ^1.1.0
+  adaptive_dialog: ^1.9.0+2
+  local_auth: ^2.1.7
+
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/svg/
+    - assets/image/
